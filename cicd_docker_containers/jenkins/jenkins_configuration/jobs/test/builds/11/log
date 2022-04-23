@@ -1,0 +1,7 @@
+Started by user [8mha:////4O2KZU6J9onKDmqWbeAyCVDQERgf82o2JpYzjf98qLmFAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYe/dLi1CIwYWAEAG80nA/BAAAA[0m1001
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins15024759406199276967.sh
++ hostname
+dfff95a81232
+Finished: SUCCESS

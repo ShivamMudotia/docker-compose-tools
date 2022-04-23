@@ -1,0 +1,25 @@
+version: "2"
+
+services:
+  keycloak:
+    #image: quay.io/keycloak/keycloak:10.0.2
+    #image: quay.io/keycloak/keycloak:latest
+    image: wizzn/keycloak:14
+    platform: linux/arm64
+    container_name: keycloak
+    restart: always
+    privileged: true
+    ports:
+      - "8070:8080"
+      - "8443:8443"
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: cicd
+  

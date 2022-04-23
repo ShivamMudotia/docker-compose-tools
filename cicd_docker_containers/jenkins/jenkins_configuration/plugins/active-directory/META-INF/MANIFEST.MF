@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: alecharp
+Build-Jdk: 1.8.0_302
+Extension-Name: active-directory
+Specification-Title: Enables authentication through Active Directory
+Implementation-Title: active-directory
+Implementation-Version: 2.25.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: active-directory
+Long-Name: Jenkins Active Directory plugin
+Url: https://github.com/jenkinsci/active-directory-plugin
+Compatible-Since-Version: 2.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.25.1
+Hudson-Version: 2.235.5
+Jenkins-Version: 2.235.5
+Plugin-Dependencies: caffeine-api:2.9.0-17.v79e9099a51e3,configuration
+ -as-code:1.35;resolution:=optional,mailer:1.5
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Felix Belzunce Arcos:fbe
+ lzunc:
+Plugin-License-Name: The MIT license
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmUrl: https://github.com/jenkinsci/active-directory-plugin
+

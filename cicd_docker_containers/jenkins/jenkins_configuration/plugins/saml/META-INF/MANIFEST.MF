@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.303.3
+Plugin-Dependencies: apache-httpcomponents-client-4-api:4.5.13-1.0,bou
+ ncycastle-api:2.25,mailer:408.vd726a_1130320
+Implementation-Title: saml
+Long-Name: SAML Plugin
+Implementation-Version: 2.291.vd3f2cd6d1c3e
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Plugin-License-Name: Apache 2.0 License
+Specification-Title: The Jenkins Plugins Parent POM Project
+Plugin-ScmUrl: https://github.com/jenkinsci/saml-plugin
+Plugin-Version: 2.291.vd3f2cd6d1c3e
+Jenkins-Version: 2.303.3
+Url: https://github.com/jenkinsci/saml-plugin
+Short-Name: saml
+Plugin-License-Url: https://www.apache.org/licenses/LICENSE-2.0
+Plugin-Developers: Ben McCann:benmccann:,Ivan Fernandez Calvo:ifernand
+ ezcalvo:
+Extension-Name: saml
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+

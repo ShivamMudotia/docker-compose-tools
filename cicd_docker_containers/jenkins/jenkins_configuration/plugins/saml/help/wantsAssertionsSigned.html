@@ -1,0 +1,9 @@
+<div>
+    It requests signed assertions send by the IdP.
+    The <code>WantAssertionsSigned</code> attribute on the <code>&lt;md:SPSSODescriptor&gt;</code> element declares
+    that the service provider wants the <code>&lt;saml:Assertion&gt;</code> element to be digitally signed
+    This attribute causes a metadata-aware identity provider to auto-configure itself at run time.
+    <pre>
+        &lt;md:SPSSODescriptor WantAssertionsSigned="true" ...&gt;
+    </pre>
+</div>

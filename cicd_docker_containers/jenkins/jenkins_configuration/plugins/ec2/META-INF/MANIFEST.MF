@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.289.3
+Plugin-Dependencies: aws-java-sdk-ec2:1.12.163-315.v2b_716ec8e4df,work
+ flow-step-api:622.vb_8e7c15b_c95a_,apache-httpcomponents-client-4-api
+ :4.5.13-1.0,aws-credentials:189.v3551d5642995,bouncycastle-api:2.25,c
+ ommand-launcher:1.6,credentials:2.6.1,node-iterator-api:1.5.1,ssh-cre
+ dentials:1.19,trilead-api:1.0.13
+Implementation-Title: ec2
+Long-Name: Amazon EC2 plugin
+Implementation-Version: 1.68
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 8
+Plugin-License-Name: The MIT License
+Specification-Title: This is a Jenkins plugin to support ephemeral Jen
+ kins agents on Amazon EC2 or other EC2-compatible clouds
+Plugin-ScmUrl: https://github.com/jenkinsci/ec2-plugin
+Plugin-Version: 1.68
+Jenkins-Version: 2.289.3
+Url: https://github.com/jenkinsci/ec2-plugin
+Short-Name: ec2
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Compatible-Since-Version: 1.45
+Plugin-Developers: F Manfred Furuholen:thoulen:fabrizio.manfredi@gmail
+ .com,Julien Duchesne:julienduchesne:julienduchesne@live.com,Raihaan S
+ houhell:raihaan:raihaanhimself@gmail.com
+Extension-Name: ec2
+Plugin-Class: hudson.plugins.ec2.PluginImpl
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+

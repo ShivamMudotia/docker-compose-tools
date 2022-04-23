@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.249.3
+Plugin-Dependencies: aws-java-sdk-minimal:1.12.163-315.v2b_716ec8e4df
+Implementation-Title: aws-java-sdk-ec2
+Long-Name: Amazon Web Services SDK :: EC2
+Implementation-Version: 1.12.163-315.v2b_716ec8e4df
+Group-Id: org.jenkins-ci.plugins.aws-java-sdk
+Minimum-Java-Version: 1.8
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Specification-Title: This plugin provides AWS SDK for Java for other p
+ lugins.
+Plugin-ScmUrl: https://github.com/jenkinsci/aws-java-sdk-plugin/aws-ja
+ va-sdk-ec2
+Plugin-Version: 1.12.163-315.v2b_716ec8e4df
+Jenkins-Version: 2.249.3
+Url: https://github.com/jenkinsci/aws-java-sdk-plugin
+Short-Name: aws-java-sdk-ec2
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-Developers: Vincent Latombe:vlatombe:vincent@latombe.net
+Extension-Name: aws-java-sdk-ec2
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.1
+

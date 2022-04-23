@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='node-iterator-api' version='1.5.1'><l:dependency name='Node Iterator API Plugin' groupId='org.jenkins-ci.plugins' artifactId='node-iterator-api' version='1.5.1' url='https://github.com/jenkinsci/node-iterator-api-plugin'><l:description>This plugin provides support for iterating through all the Node instances that are in use by Jenkins,
+    even those Node instances that are not traditionally attached to Jenkins. The API exposed by this
+    plugin can be used by cloud provider plugins to identify unused provisioned resource.</l:description><l:license name='The MIT license' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

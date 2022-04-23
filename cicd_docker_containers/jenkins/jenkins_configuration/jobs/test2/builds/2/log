@@ -1,0 +1,67 @@
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4GtOmHnlFKn95ScqW5SCIZF9szWamDbGq2VYMW46dav4AAAAxB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz9EgZL/eT83ILSktQifVdnIwUNx/BgTQVdhazUvOzMvOL4PKDbixU0MnUNjFJNk80Skw1TLVJSEpPMDDUBdHcEy+4AAAA=[0mEC2 (AWS) - jenkins_nodes (i-02e5c6ac1e8ddab61) in workspace /home/ec2-user/workspace/test2
+[test2] $ /bin/sh -xe /tmp/jenkins3036584335558272689.sh
++ sleep 600
+FATAL: command execution failed
+Command Close created at
+	at hudson.remoting.Command.<init>(Command.java:70)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1307)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1305)
+	at hudson.remoting.Channel.close(Channel.java:1481)
+	at hudson.remoting.Channel.close(Channel.java:1448)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1313)
+Caused: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1314)
+	at hudson.remoting.Channel$1.handle(Channel.java:606)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:81)
+Caused: java.io.IOException: Backing channel 'EC2 (AWS) - jenkins_nodes (i-02e5c6ac1e8ddab61)' is disconnected.
+	at hudson.remoting.RemoteInvocationHandler.channelOrFail(RemoteInvocationHandler.java:215)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:285)
+	at com.sun.proxy.$Proxy79.isAlive(Unknown Source)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.isAlive(Launcher.java:1215)
+	at hudson.Launcher$RemoteLauncher$ProcImpl.join(Launcher.java:1207)
+	at hudson.tasks.CommandInterpreter.join(CommandInterpreter.java:195)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:145)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:814)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:522)
+	at hudson.model.Run.execute(Run.java:1896)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+FATAL: Unable to delete script file /tmp/jenkins3036584335558272689.sh
+Command Close created at
+	at hudson.remoting.Command.<init>(Command.java:70)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1307)
+	at hudson.remoting.Channel$CloseCommand.<init>(Channel.java:1305)
+	at hudson.remoting.Channel.close(Channel.java:1481)
+	at hudson.remoting.Channel.close(Channel.java:1448)
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1313)
+Caused: hudson.remoting.Channel$OrderlyShutdown
+	at hudson.remoting.Channel$CloseCommand.execute(Channel.java:1314)
+	at hudson.remoting.Channel$1.handle(Channel.java:606)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:81)
+Caused: hudson.remoting.ChannelClosedException: Channel "hudson.remoting.Channel@416e7e6f:EC2 (AWS) - jenkins_nodes (i-02e5c6ac1e8ddab61)": Remote call on EC2 (AWS) - jenkins_nodes (i-02e5c6ac1e8ddab61) failed. The channel is closing down or has closed down
+	at hudson.remoting.Channel.call(Channel.java:993)
+	at hudson.FilePath.act(FilePath.java:1194)
+	at hudson.FilePath.act(FilePath.java:1183)
+	at hudson.FilePath.delete(FilePath.java:1730)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:163)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:814)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:522)
+	at hudson.model.Run.execute(Run.java:1896)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

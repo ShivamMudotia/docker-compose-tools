@@ -1,0 +1,9 @@
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4DR37k/ategWsQoD0Z/gwq7cLQhdNSrWsk5xUWy3lYQgAAAAxB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz9EgZL/eT83ILSktQifVdnIwUNx/BgTQVdhazUvOzMvOL4PKDbixU0MnUNzMwszEzNklLMUg2TzMwtkjQBL8cBou4AAAA=[0mEC2 (AWS) - jenkins_nodes (i-0668656bd6e1b678b) in workspace /home/ec2-user/workspace/test3
+[test3] $ /bin/sh -xe /tmp/jenkins6807189714078841549.sh
++ sleep 300
+Build was aborted
+Aborted by [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+/tmp/jenkins6807189714078841549.sh: line 2:  7698 Terminated              sleep 300
+Finished: ABORTED

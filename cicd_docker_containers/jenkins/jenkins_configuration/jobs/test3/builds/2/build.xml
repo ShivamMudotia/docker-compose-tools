@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>20</queueId>
+  <timestamp>1647249547109</timestamp>
+  <startTime>1647249547146</startTime>
+  <result>FAILURE</result>
+  <duration>4634</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>EC2 (AWS) - jenkins_nodes (i-06d5ceffd72ed347e)</builtOn>
+  <workspace>/home/ec2-user/workspace/test3</workspace>
+  <hudsonVersion>2.332.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

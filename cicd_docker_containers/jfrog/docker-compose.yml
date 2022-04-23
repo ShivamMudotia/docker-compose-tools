@@ -1,0 +1,29 @@
+version: "2"
+
+services:
+  nexus:
+    image: docker.bintray.io/jfrog/artifactory-oss:latest
+    platform: linux/arm64
+    container_name: jfrog
+    restart: always
+    privileged: true
+    volumes:
+      - "jfrog:/var/opt/jfrog/artifactory"
+    ports:
+      - "8090:8081"
+    networks:
+      - default
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 32000
+        hard: 40000
+
+networks:
+  default:
+    external:
+      name: cicd
+  
+volumes:
+  jfrog: {}
+

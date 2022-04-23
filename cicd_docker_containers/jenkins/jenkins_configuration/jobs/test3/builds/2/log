@@ -1,0 +1,36 @@
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4NBCgMnU/iAKY84sIUZ82Fk3jDQxorR8hKxK0+YhTHy2AAAAxB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz9EgZL/eT83ILSktQifVdnIwUNx/BgTQVdhazUvOzMvOL4PKDbixU0MnUNzFJMk1PT0lLMjVJTjE3MUzUBatJl4O4AAAA=[0mEC2 (AWS) - jenkins_nodes (i-06d5ceffd72ed347e) in workspace /home/ec2-user/workspace/test3
+FATAL: java.io.IOException: Unexpected termination of the channel
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2905)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3400)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:936)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:379)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:49)
+	at hudson.remoting.Command.readFrom(Command.java:142)
+	at hudson.remoting.Command.readFrom(Command.java:128)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:35)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:61)
+Caused: java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:75)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to EC2 (AWS) - jenkins_nodes (i-06d5ceffd72ed347e)
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1785)
+		at hudson.remoting.Request.call(Request.java:199)
+		at hudson.remoting.Channel.call(Channel.java:999)
+		at hudson.FilePath.act(FilePath.java:1194)
+		at hudson.FilePath.act(FilePath.java:1183)
+		at hudson.FilePath.mkdirs(FilePath.java:1374)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1209)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:645)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:517)
+		at hudson.model.Run.execute(Run.java:1896)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:101)
+		at hudson.model.Executor.run(Executor.java:442)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:345)
+	at hudson.remoting.Channel.terminate(Channel.java:1081)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:90)
+Finished: FAILURE

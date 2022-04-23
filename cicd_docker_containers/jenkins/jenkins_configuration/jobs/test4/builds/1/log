@@ -1,0 +1,8 @@
+Started by user [8mha:////4Al3SBz9Wz2ZL+NZk8MCcfzptVfDoAQGTxHY6r1gq6u/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4DUW7xOQBif5lS1loM0e+STyj8paYgjz61hY1ZZbtD61AAAAxB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz9EgZL/eT83ILSktQifVdnIwUNx/BgTQVdhazUvOzMvOL4PKDbixU0MnUNzC0tjE1MLMxSUiwtTdIsTDQBvI+LGe4AAAA=[0mEC2 (AWS) - jenkins_nodes (i-079834486dd994f84) in workspace /home/ec2-user/workspace/test4
+[test4] $ /bin/sh -xe /tmp/jenkins6692633441479091988.sh
++ sleep 600
++ hostname
+ip-172-31-35-162.ap-south-1.compute.internal
+Finished: SUCCESS

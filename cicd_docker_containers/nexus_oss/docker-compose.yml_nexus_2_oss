@@ -1,0 +1,27 @@
+version: "2"
+
+services:
+  nexus:
+    image: sonatype/nexus:oss
+    #image: klo2k/nexus3
+    container_name: nexus
+    restart: always
+    volumes:
+      - "nexus-data:/sonatype-work"
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+      - "8083:8083"
+      - "8482:8483"
+      - "8483:8483"
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: cicd
+  
+volumes:
+  nexus-data: {}
+
