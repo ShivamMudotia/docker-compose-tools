@@ -1,5 +1,15 @@
-nginx
+nginx 
 =====
+
+Use SSL certs in a local environment via nginx
+
+###############
+
+https://localhost.direct/
+
+
+
+########
 
 ![](https://badge.imagelayers.io/vimagick/nginx:latest.svg)
 
